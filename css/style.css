@@ -28,6 +28,7 @@ body {background-color: #CCC;}
     padding: 10px;
     margin-right:300px;
     background-color: rgba(255,255,255,0.7);
+
 }
 
 .article-list {
@@ -36,9 +37,10 @@ body {background-color: #CCC;}
 }
 
 .article {
-    list-style-type: none;
+    list-style: square;
     padding:10px;
     border-top: 1px solid #CCC;
+    counter-reset: #000;;
 }
 .article:first-child {
     border-top:none;
